@@ -57,15 +57,18 @@ git fetch https://github.com/LineageOS/android_build_soong
 git cherry-pick 8bd9d96f75106184092062af1906e7eb5c6eb23f
 ```
 
-**build/make/core**
+**build/make/core/java.mk**
 
 ```bash
 git fetch https://github.com/zingrx/grapheneos
 git cherry-pick 5cfc04f4b7f5d2864cc12aa2888d67698d1f4ba7
+```
+**build/make/core/product.mk**
+
+```bash
+git fetch https://github.com/zingrx/grapheneos
 git cherry-pick 8446c98c7543412f6986fe530bd5314b3dddc76d
 ```
-
-
 
 ## Other changes
 ---------------
